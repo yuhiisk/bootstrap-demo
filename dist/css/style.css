@@ -1,0 +1,58 @@
+.jumbotron--custom {
+  height: 100vh;
+  min-height: 400px;
+}
+
+.jumbotron--content {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.grid-system-1:before {
+  content: 'default: width -> 970px';
+  display: block;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.grid-system-1 .row > div,
+.grid-system-1 .row--no-margin div {
+  text-align: center;
+}
+.grid-system-1 .col-sm-3 > div {
+  background: bisque;
+}
+.grid-system-1 .col-sm-2 > div {
+  background-color: lightcoral;
+}
+.grid-system-1 .col-sm-4 > div {
+  background-color: lightpink;
+}
+.grid-system-1 .col-sm-6 > div {
+  background-color: lightblue;
+}
+
+.row--no-margin {
+  margin-left: 0;
+  margin-right: 0;
+}
+.row--no-margin .col-sm-2,
+.row--no-margin .col-sm-3,
+.row--no-margin .col-sm-4,
+.row--no-margin .col-sm-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.grid-system-2 {
+  max-width: 950px;
+  padding: 0;
+}
+.grid-system-2:before {
+  content: 'default: width -> 100%';
+  display: block;
+  background-color: #f1f1f1;
+  text-align: center;
+}
