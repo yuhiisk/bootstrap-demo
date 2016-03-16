@@ -157,10 +157,10 @@
     font-size: 20px;
   }
 
-  .post-item h3 {
+  .post-item-body h3 {
     font-size: 36px;
   }
-  .post-item p {
+  .post-item-body p {
     font-size: 21px;
   }
 }
